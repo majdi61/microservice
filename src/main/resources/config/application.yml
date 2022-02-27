@@ -117,12 +117,11 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://localhost:9080/auth/realms/jhipster
+            issuer-uri: https://accounts.google.com
         registration:
           oidc:
-            client-id: internal
-            client-secret: internal
-            scope: openid,profile,email
+            client-id: 957971923331-mpm1choqp1qbef2cgn00h2r2ceff9g8c.apps.googleusercontent.com
+            client-secret: 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
 
 server:
   servlet:
