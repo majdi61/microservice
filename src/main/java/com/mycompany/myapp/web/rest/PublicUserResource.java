@@ -49,4 +49,9 @@ public class PublicUserResource {
     public List<String> getAuthorities() {
         return userService.getAuthorities();
     }
+
+    @GetMapping("/ping")
+    public String test() {
+        return "working";
+    }
 }
