@@ -55,6 +55,6 @@ public class TestResource {
 
     @GetMapping("/ping")
     public String test() {
-        return "working!!";
+        return "working!!::::";
     }
 }
